@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Episódios | Menopausa Não Tem Cor</title>
+  <meta name="description" content="Ouça, pesquise e favorite episódios do podcast Menopausa Não Tem Cor.">
+  <meta property="og:title" content="Episódios | Menopausa Não Tem Cor">
+  <meta property="og:description" content="Encontre uma conversa, salve seus favoritos e ouça no seu tempo.">
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="pt_BR">
+  <meta property="og:image" content="/public/og.png">
+  <meta property="og:image:width" content="1731">
+  <meta property="og:image:height" content="909">
+  <meta property="og:image:alt" content="Fabrícia Alecrim e Dra. Vanessa Weber no podcast Menopausa Não Tem Cor">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Episódios | Menopausa Não Tem Cor">
+  <meta name="twitter:description" content="Encontre uma conversa, salve seus favoritos e ouça no seu tempo.">
+  <meta name="twitter:image" content="/public/og.png">
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
+</head>
+<body class="library-page">
+<main>
+  <header class="header library-header"><a class="logo" href="index.html"><span>menopausa</span><b>não tem cor</b></a><a class="back-home" href="index.html">← Voltar ao início</a></header>
+  <section class="library-hero"><p class="kicker">SUA ÁREA DE ESCUTA</p><h1>EPISÓDIOS</h1><p>Encontre uma conversa, salve seus favoritos e ouça no seu tempo.</p></section>
+  <section class="library-tools"><label><span>⌕</span><input id="episode-search" type="search" placeholder="Busque por tema, título ou convidada..." aria-label="Buscar episódios"></label><button id="favorites-filter" type="button">♥ Meus favoritos <b id="favorites-count">0</b></button></section>
+  <section class="episode-library"><div class="episode-results"><div class="results-head"><span id="results-count">0 episódios</span><select id="episode-order" aria-label="Ordenar episódios"><option value="recent">Mais recentes</option><option value="old">Mais antigos</option></select></div><div id="episodes-list"></div></div>
+  <aside class="now-playing"><p class="kicker">SELECIONADO</p><div class="big-cover"><span id="player-number">01</span><b>MENOPAUSA<br>NÃO TEM COR</b></div><h2 id="player-title">Menopausa não tem uma só história</h2><p id="player-description">Selecione um episódio para ver seus detalhes.</p><audio id="audio-player" controls preload="metadata"></audio><button class="main-play" id="main-play" disabled>▶ ÁUDIO EM BREVE</button><div class="player-buttons"><button id="player-favorite">♡ Favoritar</button><a id="download-button" aria-disabled="true">↓ Baixar</a></div><small>Assim que os arquivos forem adicionados, ouvir e baixar serão liberados aqui.</small></aside></section>
+  <section class="platform-banner"><div><span>EM BREVE EM OUTRAS PLATAFORMAS</span><h2>LEVE A CONVERSA COM VOCÊ.</h2></div><button disabled>YouTube</button><button disabled>Spotify</button><button disabled>RSS</button></section>
+  <footer class="mini-footer"><a class="logo light" href="index.html"><span>menopausa</span><b>não tem cor</b></a><p>Conteúdo educativo. Não substitui orientação profissional.</p></footer>
+  <div class="creator-footer"><span>CRIADO POR <strong>IGOR MONÇÃO</strong></span><a href="https://gaijin-agency.vercel.app/" target="_blank" rel="noopener noreferrer">GAIJIN AGENCY ↗</a></div>
+</main>
+</body>
+</html>
